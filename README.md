@@ -1,8 +1,8 @@
 # Getting Started
 
-##Bootstrap 4 theme for selectize.
+## Bootstrap 4 theme for selectize.
 
-###Requirements
+### Requirements
 * Bootstrap 4
 
 **Bootstrap 4 theme depends on the bootstrap variables file**
@@ -53,7 +53,7 @@
   Import Selectize Bootstrap 4 Style
 ********************************************************/
 
-**@import "selectize/selectize.bootstrap4";**
+@import "selectize/selectize.bootstrap4";
 
 ```
  
