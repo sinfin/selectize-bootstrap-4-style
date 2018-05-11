@@ -61,7 +61,7 @@
     .selectize-control.multi .selectize-input > div.active {
       background: #007bff;
       color: #fff;
-      border: 0 solid transparent; }
+      border: 0 solid rgba(0, 0, 0, 0); }
   .selectize-control.multi .selectize-input.disabled > div, .selectize-control.multi .selectize-input.disabled > div.active {
     color: #878787;
     background: white;
@@ -272,7 +272,7 @@
   background: rgba(0, 0, 0, 0.05); }
 
 .selectize-control.plugin-remove_button [data-value].active .remove {
-  border-left-color: transparent; }
+  border-left-color: rgba(0, 0, 0, 0); }
 
 .selectize-control.plugin-remove_button .disabled [data-value] .remove:hover {
   background: none; }
@@ -340,14 +340,14 @@
     -webkit-box-shadow: none;
     box-shadow: none; }
 
-.has-error .selectize-input {
+.is-invalid .selectize-input {
   border-color: #dc3545;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
-  .has-error .selectize-input:focus {
+  .is-invalid .selectize-input:focus {
     border-color: #bd2130;
-    -webkit-box-shadow: none;
-    box-shadow: none; }
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #eb8c95;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #eb8c95; }
 
 .selectize-control.multi .selectize-input.has-items {
   padding-left: calc(0.75rem - 3px);

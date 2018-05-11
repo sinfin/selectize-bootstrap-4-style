@@ -123,14 +123,14 @@ $selectize-arrow-offset: calc(#{$selectize-padding-x} + 5px) !default;
   }
 }
 
-.has-error .selectize-input {
+.is-invalid .selectize-input {
   border-color: $selectize-color-input-error;
   @include selectize-box-shadow($selectize-shadow-input-error);
 
   &:focus {
 	border-color: $selectize-color-input-error-focus;
-	@include selectize-box-shadow(none)
-	//@include selectize-box-shadow($selectize-shadow-input-error-focus);
+	// @include selectize-box-shadow(none)
+	@include selectize-box-shadow($selectize-shadow-input-error-focus);
   }
 }
 
