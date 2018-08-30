@@ -7,6 +7,7 @@
 @import "../bootstrap/variables";
 @import "../bootstrap/mixins";
 
+$enable-shadows: true !default;
 $selectize-font-family: inherit !default;
 $selectize-font-size: inherit !default;
 $selectize-line-height: $input-btn-line-height !default; //formerly line-height-computed
