@@ -368,3 +368,9 @@
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0; }
+
+.input-group .selectize-input {
+  overflow: unset;
+  -webkit-border-radius: 0 0.25rem 0.25rem 0;
+  -moz-border-radius: 0 0.25rem 0.25rem 0;
+  border-radius: 0 0.25rem 0.25rem 0; }

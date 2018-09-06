@@ -158,3 +158,8 @@ $selectize-arrow-offset: calc(#{$selectize-padding-x} + 5px) !default;
   @include selectize-box-shadow(none);
   @include selectize-border-radius(0);
 }
+
+.input-group .selectize-input {
+	overflow: unset;
+	@include selectize-border-radius(0 $selectize-border-radius $selectize-border-radius 0);
+}
