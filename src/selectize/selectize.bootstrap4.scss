@@ -71,7 +71,6 @@ $selectize-arrow-offset: calc(#{$selectize-padding-x} + 5px) !default;
   z-index: $zindex-dropdown;
   background: $selectize-color-dropdown;
   border: 1px solid $dropdown-border-color; //$dropdown-fallback-border
-  border: 1px solid $dropdown-border-color; //$dropdown-border;
   @include selectize-border-radius($border-radius);
   @include selectize-box-shadow(0 6px 12px rgba(0,0,0,.175));
 }
@@ -157,4 +156,9 @@ $selectize-arrow-offset: calc(#{$selectize-padding-x} + 5px) !default;
   background: none;
   @include selectize-box-shadow(none);
   @include selectize-border-radius(0);
+}
+
+.input-group .selectize-input {
+	overflow: unset;
+	@include selectize-border-radius(0 $selectize-border-radius $selectize-border-radius 0);
 }
