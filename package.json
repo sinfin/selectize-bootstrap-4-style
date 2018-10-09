@@ -16,6 +16,7 @@
     "gulp-watch": "^4.3.11",
     "install": "^0.10.4",
     "lodash": "^4.17.10",
+    "minimatch": "^3.0.2",
     "npm": "^5.8.0"
   },
   "scripts": {
