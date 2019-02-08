@@ -137,8 +137,8 @@
     background: #fff;
     cursor: default; }
   .selectize-dropdown .active {
-    background-color: #007bff;
-    color: #fff; }
+    background-color: #f8f9fa;
+    color: #16181b; }
     .selectize-dropdown .active.create {
       color: #16181b; }
   .selectize-dropdown .create {
