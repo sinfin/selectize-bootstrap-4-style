@@ -5,13 +5,12 @@
 ### Requirements
 * Bootstrap 4
 
-**Bootstrap 4 theme depends on the bootstrap variables file**
+**Bootstrap 4 theme depends on the bootstrap variables file. Bootstrap version 4.2.1 is currently supported and tested.**
 
 ```
 // Import Your bootstrap scss files here
-
 /*******************************************************
-  * Bootstrap v4.0.0-beta2 (http://getbootstrap.com)
+  * Bootstrap v4.2.1 (http://getbootstrap.com)
 ********************************************************/
 @import "bootstrap/functions";
 @import "bootstrap/variables";
@@ -48,13 +47,10 @@
 @import "bootstrap/carousel";
 @import "bootstrap/utilities";
 
-
 /*******************************************************
   Import Selectize Bootstrap 4 Style
 ********************************************************/
-
 @import "selectize/selectize.bootstrap4";
-
 ```
 
 # LICENSE
@@ -67,4 +63,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- 
+
