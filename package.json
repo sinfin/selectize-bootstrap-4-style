@@ -2,23 +2,25 @@
   "name": "selectizebootstrap",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/papakay/selectize-bootstrap-4-style",
+  "license": "The MIT license",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^4.0.0"
+    "eslint": "^5.16.0",
+    "gulp": "^4.0.1"
   },
   "devDependencies": {
-    "cryptiles": "^4.1.2",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "gulp-sass": "^3.2.1",
+    "@hapi/cryptiles": "^4.2.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "gulp-sass": "^4.0.2",
     "gulp-watch": "^5.0.1",
     "install": "^0.10.4",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "minimatch": "^3.0.2",
-    "npm": "^6.7.0",
     "randomatic": "^3.0.0"
   },
   "scripts": {
