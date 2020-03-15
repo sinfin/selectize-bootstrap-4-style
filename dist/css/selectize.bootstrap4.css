@@ -326,9 +326,9 @@
   padding: 6px 0.75rem; }
 
 .selectize-input {
-  min-height: calc(2.25rem + 2px);
+  min-height: calc(1.5em + 0.75rem + 2px);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-  @media screen and (prefers-reduced-motion: reduce) {
+  @media (prefers-reduced-motion: reduce) {
     .selectize-input {
       transition: none; } }
   .selectize-input.dropdown-active {
@@ -352,8 +352,8 @@
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #eb8c95; }
 
 .selectize-control.form-control-sm .selectize-input.has-items {
-  min-height: calc(1.8125rem + 2px) !important;
-  height: calc(1.8125rem + 2px) !important;
+  min-height: calc(1.5em + 0.5rem + 2px) !important;
+  height: calc(1.5em + 0.5rem + 2px) !important;
   padding: 0.25rem 0.5rem !important;
   font-size: 0.875rem;
   line-height: 1.5; }
