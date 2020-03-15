@@ -5,12 +5,12 @@
 ### Requirements
 * Bootstrap 4
 
-**Bootstrap 4 theme depends on the bootstrap variables file. Bootstrap version 4.2.1 is currently supported and tested.**
+**Bootstrap 4 theme depends on the bootstrap variables file. Bootstrap version 4.4.1 is currently supported and tested.**
 
 ```
 // Import Your bootstrap scss files here
 /*******************************************************
-  * Bootstrap v4.2.1 (http://getbootstrap.com)
+  * Bootstrap v4.4.1 (http://getbootstrap.com)
 ********************************************************/
 @import "bootstrap/functions";
 @import "bootstrap/variables";
