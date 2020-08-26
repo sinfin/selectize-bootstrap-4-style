@@ -3,9 +3,9 @@
  */
 
 //Import Boostrap 4 functions and variables
-@import "../bootstrap/functions";
-@import "../bootstrap/variables";
-@import "../bootstrap/mixins";
+@import "folio-bootstrap/scss/functions";
+@import "folio-bootstrap/scss/variables";
+@import "folio-bootstrap/scss/mixins";
 
 $enable-shadows: true !default;
 $selectize-font-family: inherit !default;
